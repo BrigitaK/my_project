@@ -13,3 +13,15 @@ udra:
 suma:
     path: /skaiciuoti/suma/{num1}/{num2}
     controller: App\Controller\SkaiciuotuvoController::suma
+
+dalyba:
+    path: /skaiciuoti/dalyba/{num1}/{num2}
+    controller: App\Controller\SkaiciuotuvoController::dalyba
+
+daugyba:
+    path: /skaiciuoti/daugyba/{num1}/{num2}
+    controller: App\Controller\SkaiciuotuvoController::daugyba
+
+atimtis:
+    path: /skaiciuoti/atimtis/{num1}/{num2}
+    controller: App\Controller\SkaiciuotuvoController::atimtis
