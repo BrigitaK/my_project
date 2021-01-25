@@ -9,3 +9,7 @@ bebras:
 udra:
     path: /upe/udra
     controller: App\Controller\UpesController::udra
+
+suma:
+    path: /skaiciuoti/suma/{num1}/{num2}
+    controller: App\Controller\SkaiciuotuvoController::suma
