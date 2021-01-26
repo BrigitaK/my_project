@@ -8,20 +8,22 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CalculatorController extends AbstractController
 {
-
-    # @Route("/calculator", name="calculator", methods:"get")
-
+    /**
+     * @Route("/calculator", name="calculator")
+     */
     public function index(): Response
     {
         return $this->render('calculator/index.html.twig', [
             'controller_name' => 'CalculatorController',
         ]);
     }
-
-    # @Route("/calculator", name="count", methods:"post")
-
+    /**
+     * @Route("/calculator", name="count")
+     */
     public function counter(): Response
     {
-        dd($r->request->all());
+        return $this->render('calculator/index.html.twig', [
+            'controller_name' => 'CalculatorController',
+        ]);
     }
 }
