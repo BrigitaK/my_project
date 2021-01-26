@@ -16,5 +16,9 @@
     Y: <input type="text" name="y">
     <button type="submit">+</button>
     </form>
+
+    {% if result %}
+        RESULT: {{ result }}
+    {% endif %}
 </div>
 {% endblock %}
