@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class UpesController extends AbstractController
 {
-    public function bebras(string $veiksmas, int $kiekis)
+    public function bebras(string $pasveikinimas, int $kiekis)
     {
         $name = 'Bebras';
         $udraUrl = $this->generateUrl('udra');
