@@ -20,5 +20,11 @@
     {% if result %}
         RESULT: {{ result }}
     {% endif %}
+
+    <ul>
+    {% for r in history %}
+        <li>{{r.enter1}} + {{r.enter2}} = {{r.red}}</li>
+    {% endfor %}
+    </ul>
 </div>
 {% endblock %}
